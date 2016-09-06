@@ -15,7 +15,12 @@
 			<div class="col-lg-4"  style="background-color:grey;">gray
 			</div>
 			<div class="col-lg-4"  style="background-color:yellow;">yellow
-				<button class="btn btn-danger">press this sucker</button>
+				<button id="btnClick" style="position:absolute;left:50px;;" class="btn btn-danger"
+
+				onclick="document.getElementById('btnClick').style.left =
+				document.getElementById('btnClick').offsetLeft + 50 + 'px';
+				">
+					push this sucker</button>
 			</div>
 		</div>
 	</div>
