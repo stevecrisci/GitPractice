@@ -1,7 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<title>Steve Test</title>
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 </head>
 <body>
 	<div class="jumbotron text-center">
@@ -17,15 +23,15 @@
 			<div class="col-lg-4"  style="background-color:yellow;">yellow
 				<button id="btnClick" style="position:absolute;left:50px;;" class="btn btn-danger"
 
-				onclick="document.getElementById('btnClick').style.left =
-				document.getElementById('btnClick').offsetLeft + 50 + 'px';
-				">
-					push this sucker</button>
+				onclick="testScript1();">
+				push this sucker</button>
 			</div>
 		</div>
 	</div>
 	<script>
 	console.log("hello")
 	</script>
+
+	<script src="scripts/test.js"></script>
 </body>
 </html>
