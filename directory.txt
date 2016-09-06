@@ -1,0 +1,5 @@
+total 3
+-rw-r--r-- 1 Steve 197609  0 Sep  4 09:59 directory.txt
+-rw-r--r-- 1 Steve 197609 16 Sep  3 17:19 readme.md
+-rw-r--r-- 1 Steve 197609 22 Sep  4 09:58 test.html
+-rw-r--r-- 1 Steve 197609 76 Sep  4 09:53 test1.html
